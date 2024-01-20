@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Personal Portfolio of Sophia Iaconis.">
+    <title>Sophia Iaconis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7641a78830.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href=""><i class="fa-sharp fa-solid fa-x"></i></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <ul>
+            <li class="menu" onclick=showSidebar()><a href="#"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href=""><b>Research</b></a></li>
+            <li class="hideOnMobile"><a href="resume.html">Resume</a></li>
+            <li class="nametag"><a href="index.html">Sophia Iaconis</a></li>
+        </ul>
+    </nav>
+    <div class="mainpage"> 
+        <div class="col column-text">
+            <div class="section">
+                <div class="standard-title">
+                    Neuronal Circuitry Underlying Hedonic Behavior
+                </div>
+                <div class="standard-header">
+                    University of Florida College of Medicine
+                </div>
+                <div class="standard-header">
+                    Department of Pharamacology and Therapeutics
+                </div>
+                <div class="standard-header">
+                    Research Mentor: Daniel Wesson
+                </div>
+                <div class="standard-header">
+                    <a href="https://www.wessonlab.org/">
+                    Wesson Lab<br>
+                    </a>   
+                </div>
+                <div class="standard-paragraph ">
+                    [Description]
+                </div>
+                <div class="standard-paragraph ">
+                    [Responsibilities]
+                </div>
+                <div class="standard-paragraph">
+                    [Photo]
+                </div>
+            </div>
+        </div>
+        <div class="col column-info"> 
+            <img src="assets/headshot.png" alt="Sophia Iaconis Headshot"
+            style="width:40%; border:solid 1px #90a4ae; margin-top:5%">
+            <br>
+            Sophia Iaconis
+            <br>
+            Undergraduate Student Researcher
+            <br>
+            <a href="https://www.ufl.edu/">
+            University of Florida <br>
+            </a>
+            <br>
+            <div class="icons">
+                <a href="http://www.linkedin.com/in/sophiaiaconis/">
+                    <i class="fa fa-linkedin-square" style=""></i>
+                </a>
+                <a href="mailto:sophia.iaconis@ufl.edu">
+                    <i class="fa-solid fa-file-lines" style=""></i>
+                </a>
+            </div>
+            <hr class="text-hr">
+        </div> 
+    </div>
+</body>
+</html>
