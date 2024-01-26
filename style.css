@@ -144,13 +144,20 @@ a {
 .standard-header {
     font-size: 1.1rem;
     margin-top: 2%;
-    line-height: 1.25;
+    line-height: .75;
 }
 
 .standard-paragraph {
     text-align: justify;
     margin-top: 2%;
     line-height: 1.5;
+}
+
+.standard-subheading {
+    font-size: 0.5rem;
+    text-align: right;
+    margin-top: .5%;
+    line-height: 1;
 }
 
 .profile-description {
